@@ -2,10 +2,10 @@ import React from "react";
 import './Navbar.css';
 
   const Navbar = () =>{
-  <> 
+  <header>
   <nav className="nav-wrapper">
     <div className="nav-content">
-        <img className="logo" src="#" alt="logo"/>
+        <img className="logo" src="./assets/logo.jpg" alt="logo"/>
         <ul>
             <li>
                 <a className="menu-item" href="#">Home</a>
@@ -20,15 +20,15 @@ import './Navbar.css';
                 <a className="menu-item" href="#">Contact me</a>
             </li>
 
-            <button className="contact-bnt" onClick={() => {}}>
+            <button  className="contact-bnt" onClick={() => {}}>
                Hire me
-            </button>
+            </ button >
         </ul>
 
     </div>
 
   </nav>
-  </>
+  </header>
 }
 
 export default Navbar;
