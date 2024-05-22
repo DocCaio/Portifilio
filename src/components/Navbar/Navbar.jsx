@@ -25,6 +25,17 @@ import './Navbar.css';
             </ button >
         </ul>
 
+        <button className="menu-btn" onClick={() => {}}>
+            <span
+             className={"material-symbols-outlined"}
+             style={{fontSize: "1.8rem"}}   
+            
+            >
+            menu
+            </span>
+
+        </button>
+
     </div>
 
   </nav>
