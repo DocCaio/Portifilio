@@ -2,22 +2,22 @@ import React from "react";
 import './Navbar.css';
 
   const Navbar = () =>{
-  <header>
+  <>
   <nav className="nav-wrapper">
     <div className="nav-content">
-        <img className="logo" src="./assets/logo.jpg" alt="logo"/>
+        <img className="logo" src="../assets/logo.jpg" alt="logo"/>
         <ul>
             <li>
-                <a className="menu-item" href="#">Home</a>
+                <a className="menu-item" href="https://ge.globo.com/">Home</a>
             </li>
             <li>
-                <a className="menu-item" href="#">Skills</a>
+                <a className="menu-item" href="https://ge.globo.com/">Skills</a>
             </li>
             <li>
-                <a className="menu-item" href="#">Work Experience</a>
+                <a className="menu-item" href="https://ge.globo.com/">Work Experience</a>
             </li>
             <li>
-                <a className="menu-item" href="#">Contact me</a>
+                <a className="menu-item" href="https://ge.globo.com/">Contact me</a>
             </li>
 
             <button  className="contact-bnt" onClick={() => {}}>
@@ -28,7 +28,7 @@ import './Navbar.css';
     </div>
 
   </nav>
-  </header>
+  </>
 }
 
-export default Navbar;
+export default Navbar; 
