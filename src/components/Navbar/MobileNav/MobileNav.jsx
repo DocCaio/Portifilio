@@ -1,16 +1,10 @@
+import React from 'react';
 import './MobileNav.css';
 
-const MobileNav = () => {
-
-    const toggleMenu = () => {
-        setOpenMenu(!openMenu);
-    };
-
-
+   const MobileNav =({isOpen, toggleMenu}) => {  
 
     return (
-   <>
-    <MobileNav isOpen={openMenu} toggleMenu={toggleMenu} />
+   <>   
    <div className={`mobile-menu ${isOpen ? "active": ""}`}
          onClick={toggleMenu}
    >
@@ -54,4 +48,6 @@ const MobileNav = () => {
    </>
     )
 }
+
+
 export default MobileNav;
