@@ -1,3 +1,4 @@
+
 import React from 'react';
 import './MobileNav.css';
 
@@ -36,7 +37,7 @@ import './MobileNav.css';
             <span className={"material-symbols-outlined"}
             style={{fontSize: "1.8rem"}}            
             >
-                {openMenu ? 'close' : 'menu'}
+                Menu
 
             </span>
 
