@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import Pro from './assets/programming.svg'
+import Pro from './assets/programador.jpg';
 
 const Hero = () => {
     return (
@@ -25,6 +25,16 @@ const Hero = () => {
             
         </div>
 
+        
+        <div className='tech-icon'>                      
+        
+        
+        <i class="devicon-html5-plain colored"></i>
+          
+                   
+            
+        </div>
+
         <div className='tech-icon'>                        
         
         <i class="devicon-typescript-plain colored"></i>
@@ -39,11 +49,14 @@ const Hero = () => {
             
         </div>
 
+           
+   
+          
         <div className='hero-img'>
            <img src={Pro} alt='programming guy' />
 
         </div>
-
+                     
        </section>
 
     )

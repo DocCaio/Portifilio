@@ -30,7 +30,39 @@
     gap: 2rem;
     margin-top: 5rem;
 }
- 
-.hero-img  img {
-    width: 300px;
+
+.hero-img > div {
+    display: flex;
+    align-items: flex-end;
+    gap: 2rem;
 }
+
+.hero-img > div > img {
+    width: 25rem;
+    transition: all 0.3s ease;
+}
+
+.tech-icon {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    border-radius: 0.5rem;
+    border:  1.5px solid #6852ba;
+}
+
+.tech-icon i {    
+    font-size: 3rem;
+    width: 3rem;
+    height: auto;
+    transition: all 0.3s ease;
+}
+
+.hero-img > div > img:hover,
+.tech-icon i:hover {
+    transform:  translateY(-0.5rem);
+
+} 
+ 
+
+
