@@ -82,6 +82,7 @@
     width: 3rem;
     height: auto;
     transition: all 0.3s ease;
+    margin-left: 1rem;
 }
 
 .hero-img > div > img:hover,
@@ -101,7 +102,7 @@
         line-height: 1.6rem;
     }
 
-    .hero-img > div > img {
+    .hero-img > div > img , i {
         width: 20rem;
         
     }
@@ -112,7 +113,7 @@
     }
 
 
-    .tech-icon i {
+    .tech-icon i {        
         width: 2.5rem;
     }
 

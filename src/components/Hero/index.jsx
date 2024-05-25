@@ -19,43 +19,42 @@ const Hero = () => {
 
         </div>
 
-        <div className='tech-icon'>
+        <div className='hero-img'>
 
-        <i class="devicon-react-original colored"></i>         
-            
-        </div>
+        <div>
+         <div className='tech-icon'>           
+           <i class="devicon-react-original colored"></i>  
+         </div>
+          <img src={Pro} alt='programming guy' />
+        </div>      
 
-        
-        <div className='tech-icon'>                      
-        
-        
-        <i class="devicon-html5-plain colored"></i>
+        <div>
+        <div className='tech-icon'>   
+
+         <i class="devicon-html5-plain colored"></i>
+
+        </div> 
           
                    
-            
-        </div>
+        <div className='tech-icon'>  
 
-        <div className='tech-icon'>                        
-        
-        <i class="devicon-typescript-plain colored"></i>
-                  
-            
-        </div>
+         <i class="devicon-typescript-plain colored"></i>    
+
+        </div>   
+       
 
         <div className='tech-icon'>                        
         
         <i class="devicon-javascript-plain colored"></i>
-                   
-            
+
         </div>
 
-           
+        </div>
+        
+        </div>  
    
           
-        <div className='hero-img'>
-           <img src={Pro} alt='programming guy' />
-
-        </div>
+       
                      
        </section>
 
