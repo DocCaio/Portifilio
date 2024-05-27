@@ -1,7 +1,7 @@
 
 import React from 'react';
 import './styles.css';
-import Logo from '../Navbar/assets/logo.jpg'
+import Logo from '../Navbar/assets/logo.jpg';
 
    const MobileNav =({isOpen, toggleMenu}) => {  
 
@@ -32,17 +32,7 @@ import Logo from '../Navbar/assets/logo.jpg'
                 Hire Me
 
             </button>
-        </ul>
-
-        <button className='menu-btn' onClick={() => {}}>
-            <span class={"material-symbols-outlined"}
-            style={{fontSize: "1.8rem"}}            
-            >
-                Menu
-
-            </span>
-
-        </button>
+        </ul>      
 
     </div>
 
