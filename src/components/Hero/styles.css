@@ -1,11 +1,11 @@
-.hero-container{
+.hero-container {
     display: flex;
     align-items: center;
     position: relative;
 }
 
 .hero-container::after,
-.hero-containerr::before {
+.hero-container::before {
     content: "";
     width: 28.125rem;
     height:28.125rem;
@@ -156,6 +156,33 @@
     .hero-container::before {
         bottom: 2rem;
         right: 0rem;
+    }
+
+    @media (max-width: 600px) {
+
+        .hero-content h2 {
+            font-size: 2.2rem;
+            line-height: 3rem;
+        }
+
+        .hero-content p {
+            font-size: 0.8rem;
+            line-height: 1.3rem;
+        }
+
+        .hero-img > div > img {
+            width: 16rem;
+        }
+
+        .tech-icon {
+            width: 3.3rem;
+            height: 3.3rem;
+        }
+
+        .tech-icon img {
+            width: 2rem;
+        }
+        
     }
 
 }
