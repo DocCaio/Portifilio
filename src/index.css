@@ -12,7 +12,7 @@
 }
 
 body {
-  background-image: url('./assets/banner-bg.png');
+  background-image: url('./assets/banner-bg.png'); 
   background-color: black;
   color: #fff;
 }
