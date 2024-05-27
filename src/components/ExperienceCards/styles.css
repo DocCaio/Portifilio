@@ -39,3 +39,19 @@
     left: -1.3rem;
     top: 0.35rem;
 }
+
+@media (max-width: 768px) { 
+
+   .work-experience-card {
+    margin: 0;
+   }
+
+   .work-experience-card h6 {
+     font-size: 0.95rem;
+   }
+
+   .work-experience-card ul li {
+    font-size: 0.75rem;
+   }
+
+}

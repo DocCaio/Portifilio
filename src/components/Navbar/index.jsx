@@ -42,9 +42,10 @@ const Navbar = () => {
             <span 
               class={"material-symbols-outlined"}
               style={{fontSize: "1.8rem"}}
-            >
+            >                
                 {openMenu ? "close" : "menu"}
             </span>
+            
 
             </button>    
     </div>
