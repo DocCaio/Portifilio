@@ -3,6 +3,7 @@ import './styles.css';
 import ContactInfoCards from "../ContactInfoCards";
 import Linkedin from "./assets/linkedin.svg";
 import Mail from "./assets/e-mail.svg";
+import ContactForm from "../ContactForm";
 
 const   ContactMe = () => {
   return (
@@ -24,7 +25,9 @@ const   ContactMe = () => {
       
     </div>
 
-    <div style={{flex:1}}></div>
+    <div style={{flex:1}}>
+      <ContactForm/>
+    </div>
    </div>
 
    </section>
