@@ -1,8 +1,9 @@
 import './App.css';
 import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import WorkExperience from './components/WorkExperience';
+//import WorkExperience from './components/WorkExperience';
 
 function App() {
  
@@ -13,9 +14,10 @@ function App() {
         <Navbar/>
         <div className='container'>
            <Hero/>
-           <WorkExperience/>
+           {/*<WorkExperience/>*/}
            <ContactMe/>
         </div>
+        <Footer/>
        
       
     

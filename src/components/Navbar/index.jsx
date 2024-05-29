@@ -25,9 +25,9 @@ const Navbar = () => {
             <li>
                 <a className="menu-item" href="#">Skills</a>
             </li>
-            <li>
+            {/*<li>
                 <a className="menu-item" href="#">Work Experience</a>
-            </li>
+            </li>*/}
             <li>
                 <a className="menu-item" href="#" >Contact me</a>
             </li>
