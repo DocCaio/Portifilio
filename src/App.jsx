@@ -3,6 +3,7 @@ import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import { Projets } from './components/Projetcs';
 //import WorkExperience from './components/WorkExperience';
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
         <div className='container'>
            <Hero/>
            {/*<WorkExperience/>*/}
-           <ContactMe/>
+           {/*<ContactMe/>*/}
+           <Projets/>
         </div>
         <Footer/>
        
