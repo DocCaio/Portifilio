@@ -1,5 +1,7 @@
 # Portifilio
 
+### Portfolio completely redone and with a new appearance, made with react
+
 
 ## Techs
 
