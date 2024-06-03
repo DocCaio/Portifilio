@@ -32,8 +32,13 @@ const projects = [
   ];
 
 
-  projects.map((projects , index) => {
-    return (
-      <p>{projects.title}</p>
-    )
-  })
+  {
+    projects.map(( project , index) => {
+      return (
+        <ProjectsCards
+          key={index}
+          {...project}
+        />
+      )
+    })
+  }

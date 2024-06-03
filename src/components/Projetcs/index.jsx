@@ -1,10 +1,11 @@
 import React from "react";
 import './styles.css';
 import { Col, Container, Nav, Row, Tab } from "react-bootstrap";
-import Pro from '../../util/pro.js';
+//import Pro from '../../util/pro.js';
+import { ProjectsCards } from "../ProjectsCards/index.jsx";
 
 export const Projets = () => {  
-<Pro/>
+  
   
     return (
     
@@ -29,13 +30,7 @@ export const Projets = () => {
                   <Tab.Content>
                     <Tab.Pane eventKey="fisrt">
                       <Row>
-                      {
-                          Pro.map((Pro , index) => {
-                            return (
-                              <p>{Pro.title}</p>
-                            )
-                          })
-                        }
+                      
                       </Row>
 
                     </Tab.Pane>
@@ -46,7 +41,7 @@ export const Projets = () => {
             </Col>
         </Row>
     </Container>
-   
+     <img className="backgound-image-right"/>
   </section>
      )
  }
