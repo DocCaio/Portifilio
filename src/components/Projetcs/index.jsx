@@ -39,6 +39,8 @@ export const Projets = () => {
                       </Row>
 
                     </Tab.Pane>
+                    <Tab.Pane eventKey="second">OI</Tab.Pane>
+                    <Tab.Pane eventKey="third">oi</Tab.Pane>
                   </Tab.Content>
                   </Tab.Container>
             </Col>

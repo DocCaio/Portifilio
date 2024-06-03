@@ -30,3 +30,10 @@ const projects = [
       imgUrl: projImg3,
     },
   ];
+
+
+  projects.map((projects , index) => {
+    return (
+      <p>{projects.title}</p>
+    )
+  })
