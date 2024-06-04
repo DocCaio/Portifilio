@@ -3,7 +3,9 @@ import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import { Projets } from './components/Projetcs';
+import { ProjectsCards } from './components/Projects';
+
+
 //import WorkExperience from './components/WorkExperience';
 
 function App() {
@@ -17,7 +19,7 @@ function App() {
            <Hero/>
            {/*<WorkExperience/>*/}
            {/*<ContactMe/>*/}
-           <Projets/>
+           <ProjectsCards/>
         </div>
         <Footer/>
        
