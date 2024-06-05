@@ -1,31 +1,20 @@
 import React from 'react';
-import './styles.css';
+import './styles.modules.css';
 import projects from '../../util/projects.json';
+import { ProjectCards } from '../ProjectCards';
 
 
 
-export const ProjectsCards = () => {  
+export const Projects = () => {  
    return (
 
  <section>
    <h2>Projects</h2>   
    <div>
-     {projects.map((projetct , id) => {
+     {projects.map((project, id) => {
       return (
-        <div key={id}>
-          <img src={projetct.imageSrc} alt= {`image of ${projetct.title}`}/>
-           <h3>{projetct.title}</h3>
-           <p>{projetct.description}</p>
-           <ul>
-            {projetct.skills.map((skills, id) => {
-              <li key={id}>{skills}</li>
-            })}
-           </ul>
-           <div>
-            <a href={projetct.demo}>Demo</a>
-            <a href={projetct.source}>Source</a>
-           </div>
-        </div>
+          <ProjectCards key={id} project={project}/>
+
       )
      })}
    </div>

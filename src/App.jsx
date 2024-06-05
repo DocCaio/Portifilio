@@ -3,7 +3,7 @@ import ContactMe from './components/ContactMe';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
-import { ProjectsCards } from './components/Projects';
+import { Projects } from './components/Projects';
 
 
 //import WorkExperience from './components/WorkExperience';
@@ -19,7 +19,7 @@ function App() {
            <Hero/>
            {/*<WorkExperience/>*/}
            {/*<ContactMe/>*/}
-           <ProjectsCards/>
+           <Projects/>
         </div>
         <Footer/>
        
