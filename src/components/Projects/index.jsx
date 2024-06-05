@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles.modules.css';
+import styles from "./styles.module.css";
 import projects from '../../util/projects.json';
 import { ProjectCards } from '../ProjectCards';
 
@@ -8,9 +8,9 @@ import { ProjectCards } from '../ProjectCards';
 export const Projects = () => {  
    return (
 
- <section>
-   <h2>Projects</h2>   
-   <div>
+ <section className={styles.container}>
+   <h2 className={styles.title}>Projects</h2>   
+   <div className={styles.projects}>
      {projects.map((project, id) => {
       return (
           <ProjectCards key={id} project={project}/>
