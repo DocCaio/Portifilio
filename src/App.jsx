@@ -21,8 +21,7 @@ function App() {
            {/*<ContactMe/>*/}
            <Projects/>
         </div>
-        <Footer/>
-       
+       <Footer/>      
       
     
     </>

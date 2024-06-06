@@ -1,6 +1,9 @@
 import React from 'react';
 import './styles.css';
 import Pro from './assets/programador.jpg';
+import Linkedin from './assets/linkedin.svg';
+import Github from './assets/github.svg';
+import Email from './assets/envelope-fill.svg';
 
 const Hero = () => {
     return (
@@ -8,7 +11,7 @@ const Hero = () => {
         <div className='hero-content'>
             <h2>Hi 👋,My name is Caio I'm a developer</h2>
             <p>
-                My name is Caio, and I am passionate about 
+                I am passionate about 
                 technology, which led me to pursue a career 
                 in programming. I have experience in web 
                 development, and I study and create projects 
@@ -16,6 +19,26 @@ const Hero = () => {
                 database handling. Currently, 
                 I am focusing on Frontend technologies.
             </p>
+
+            <div className='social'>
+              <a 
+              target='blank'
+              href="">
+                 <img src={Linkedin}/>
+              </a>
+          
+              <a 
+              target='blank'
+              href="https://github.com/doccaio">
+                 <img src={Github}/>
+              </a>
+              
+              <a 
+              target='blank'
+              href="">
+                 <img src={Email}/>
+              </a>
+          </div>
 
         </div>
 
@@ -52,7 +75,7 @@ const Hero = () => {
         </div>
         
         </div>  
-   
+          
           
        
                      
