@@ -23,7 +23,7 @@ const Hero = () => {
             <div className='social'>
               <a 
               target='blank'
-              href="">
+              href="https://www.linkedin.com/in/caio-martins-2ba009207/">
                  <img src={Linkedin}/>
               </a>
           

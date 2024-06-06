@@ -12,9 +12,13 @@
 }
 
 body {
+  position: relative;
   background-image: url('./assets/banner-bg.png'); 
   background-color: black;
-  color: #fff;
+  color: var(--color-text);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;    
 }
 
 
@@ -26,4 +30,8 @@ body {
   --color-primary: #576cbc;
   --color-secondary: #19376d;
 
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
