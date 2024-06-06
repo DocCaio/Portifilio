@@ -28,6 +28,9 @@ const Navbar = () => {
             {/*<li>
                 <a className="menu-item" href="#">Work Experience</a>
             </li>*/}
+               <li>
+                <a className="menu-item" href="#">Projects</a>
+            </li>
             <li>
                 <a className="menu-item" href="#" >Contact me</a>
             </li>
