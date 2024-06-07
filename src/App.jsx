@@ -18,8 +18,9 @@ function App() {
         <div className='container'>
            <Hero/>
            {/*<WorkExperience/>*/}
-           {/*<ContactMe/>*/}
+           
            <Projects/>
+           <ContactMe/>
         </div>
        <Footer/>      
       

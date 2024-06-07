@@ -1,6 +1,6 @@
 .contact-container {
     margin: 4rem 0;
-    position: relative;
+    position: relative;  
 }
 
 .contact-container h5 {
@@ -19,7 +19,7 @@
         flex-direction: column-reverse;
     }
 
-    .contact-content h5 {
+    .contact-content h5 {        
         font-size: 1.3rem;
         margin-bottom: 2rem;
     }
