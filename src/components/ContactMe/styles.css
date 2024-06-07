@@ -17,7 +17,7 @@
 
 @media (max-width: 768px) {
     .contact-content {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .contact-content h5 {        

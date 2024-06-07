@@ -2,7 +2,8 @@
     margin-top: 76px;
     color: var( --color-text);
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 10%;   
+    
 }
 
 .title {
@@ -19,4 +20,12 @@
     align-items: center;
     gap: 15px;
     width: 100%;
+}
+
+@media screen  and (max-width:600px) {
+    .projects {
+       display: flex;
+       flex-direction: column;
+       
+    } 
 }

@@ -195,7 +195,9 @@
         .tech-icon img {
             width: 2rem;
         }
-        
+        .social {
+            margin-left: 1rem;
+        }
     }
 
 }
