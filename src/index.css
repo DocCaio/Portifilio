@@ -18,7 +18,7 @@ body {
   color: var(--color-text);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
   height: 100vh;     
 }
 

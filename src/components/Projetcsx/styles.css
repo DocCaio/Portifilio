@@ -31,7 +31,7 @@
     background-color: transparent;
     border-radius: 0;
     padding: 17px 0;
-    color: #fff;
+    color: var(--color-text);
     width: 100%;
     font-size: 17px;
     letter-spacing: 0.8px;

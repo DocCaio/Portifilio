@@ -1,5 +1,5 @@
 .container {
-    margin-top: 76px ;
+    margin-top: 76px;
     color: var( --color-text);
     margin-left: 10%;
     margin-right: 10%;
@@ -14,9 +14,8 @@
 
 .projects {
     margin-top: 37px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 15px;
     width: 100%;
