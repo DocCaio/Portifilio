@@ -1,15 +1,29 @@
 import React, { useState } from "react";
 import './styles.css';
+   
 
 
-const   ContactForm = () => {
+ const   ContactForm = () => {
+
  const [name ,setName] = useState('')
  const [email ,setEmail] = useState('')
  const [message ,setMessage] = useState('')
 
+ function sendEmail(e) {
+  e.preventDefault();
+
+  if (name === "" || email === "" || message === "") {
+    alert("Preencha todos os campo");
+    return;
+  }
+
+  alert('teste')
+  
+ }
+
   return (
     <div className="contact-form-content">
-     <form className="form" onSubmit={() => {}}>
+     <form className="form" onSubmit={sendEmail}>
 
    <div className="name-container">
      <input type="text" name="fistname" placeholder="First name" onChange={(e) => setName(e.target.value)} value={name}/>
