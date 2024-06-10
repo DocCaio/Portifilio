@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import './styles.css';
+import emailjs from '@emailjs/browser';
    
 
 
@@ -17,7 +18,11 @@ import './styles.css';
     return;
   }
 
-  alert('teste')
+  const templateParams = {
+    from_name: name,
+  }
+
+  emailjs.send('service_l1x0usq' , 'template_tq6qbml')
   
  }
 
