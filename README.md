@@ -30,4 +30,6 @@ npm install slick-carousel --save
 
 npm install react-bootstrap bootstrap  
 
+npm install --save @emailjs/browser
+
 ```
