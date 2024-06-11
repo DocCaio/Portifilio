@@ -2,7 +2,7 @@
 import './styles.css'
 import MobileNav from '../MobileNav'
 import { useState } from 'react';
-import Logo from './assets/logo.jpg'
+import Logo from './assets/logo.jpg';
 
 const Navbar = () => {
     const [openMenu , setOpenMenu] = useState(false);
