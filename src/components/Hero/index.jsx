@@ -35,7 +35,7 @@ const Hero = () => {
               
               <a 
               target='blank'
-              href="">
+              href="#email">
                  <img src={Email}/>
               </a>
           </div>
