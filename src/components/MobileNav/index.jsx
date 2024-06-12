@@ -3,6 +3,7 @@ import React from 'react';
 import './styles.css';
 import Logo from '../Navbar/assets/logo.jpg';
 
+
    const MobileNav =({isOpen, toggleMenu}) => {  
 
     return (
@@ -28,7 +29,7 @@ import Logo from '../Navbar/assets/logo.jpg';
                 <a className='menu-item' href="#">Contact Me</a>
             </li>
 
-            <button className='contact-btn' onClick={() => {}}>
+            <button className='contact-bnt' onClick={() => {}}>
                 Hire Me
 
             </button>

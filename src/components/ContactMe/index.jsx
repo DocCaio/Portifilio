@@ -15,8 +15,7 @@ const   ContactMe = () => {
       <ContactInfoCards
        iconUrl={Send}       
 
-      />
-       
+      />      
 
             
       

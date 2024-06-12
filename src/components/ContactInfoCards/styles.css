@@ -8,6 +8,7 @@
     border: 1.5px solid #6751b9;*/
     padding: 1.5rem;
     margin-bottom: 2rem;
+    max-width: 150px;
 }
 
 .contact-details-card .icon {
@@ -32,4 +33,11 @@
     text-align: center;
     font-size: 0.9rem;
     font-weight: 400;
+}
+
+@media screen and (max-width:600px) {
+    .contact-details-card {       
+        max-width: 1500px;
+    }
+    
 }
