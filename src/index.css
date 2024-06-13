@@ -15,7 +15,7 @@
   
 body {   
   position: relative;
-  background-image: url('./assets/banner-bg.png'); 
+  /*background-image: url('./assets/banner-bg.png');*/ 
   background-color: black;
   color: var(--color-text);
   background-size: cover;
