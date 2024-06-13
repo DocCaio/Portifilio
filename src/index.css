@@ -11,7 +11,17 @@
 
 }
 
-body {
+
+  
+
+  @media (max-width: 786px){
+  body, html {
+  overflow-x: hidden!important;
+  }
+  }
+
+body ,html {
+  overflow-x: hidden !important;
   position: relative;
   background-image: url('./assets/banner-bg.png'); 
   background-color: black;

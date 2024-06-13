@@ -8,6 +8,14 @@
     max-width: 345px;
 }
 
+/*.container img {
+    transition: transform 0.5s;
+}
+
+.container img:hover {
+    transform: scale(1.5);
+  }*/
+
 .image {
     margin-bottom: 26px;
 }
