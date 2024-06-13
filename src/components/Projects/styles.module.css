@@ -2,7 +2,8 @@
     margin-top: 76px;
     color: var( --color-text);
     margin-left: 10%;
-    margin-right: 10%;   
+    margin-right: 10%;
+    text-align: center;   
     
 }
 
@@ -11,12 +12,19 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    padding:3rem;
 }
 
 .projects {
     margin-top: 37px;
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
     align-items: center;
     gap: 15px;
     width: 100%;

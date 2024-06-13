@@ -4,6 +4,7 @@ import Pro from './assets/programador.jpg';
 import Linkedin from './assets/linkedin.svg';
 import Github from './assets/github.svg';
 import Email from './assets/envelope-fill.svg';
+import Dev from './assets/dev-to.svg';
 
 const Hero = () => {
     return (
@@ -37,6 +38,12 @@ const Hero = () => {
               target='blank'
               href="#email">
                  <img src={Email}/>
+              </a>
+
+              <a 
+              target='blank'
+              href="https://dev.to/doccaio">
+                 <img src={Dev}/>
               </a>
           </div>
 
