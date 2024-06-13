@@ -15,12 +15,10 @@ const   ContactMe = () => {
       <ContactInfoCards
        iconUrl={Send}       
 
-      />      
-
-            
+      />       
       
     </div>
-
+    
     <div style={{flex:1}}>
       <ContactForm/>
     </div>
