@@ -9,19 +9,11 @@
   box-sizing: border-box;
   font-family: var(--ff);
 
-}
+}  
 
-
+ 
   
-
-  @media (max-width: 786px){
-  body, html {
-  overflow-x: hidden!important;
-  }
-  }
-
-body ,html {
-  overflow-x: hidden !important;
+body {   
   position: relative;
   background-image: url('./assets/banner-bg.png'); 
   background-color: black;
@@ -29,7 +21,7 @@ body ,html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
-  height: 100vh;     
+  height: 100%;     
 }
 
 

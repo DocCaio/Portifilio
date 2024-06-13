@@ -36,7 +36,8 @@
 }
 
 @media screen and (max-width:600px) {
-    .contact-details-card {       
+    .contact-details-card { 
+        width: 100%;       
         max-width: 1500px;
     }
     

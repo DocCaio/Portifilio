@@ -1,11 +1,13 @@
 .contact-form-content {
     width: 100%;
+    width: fit-content;
 }
 
 form {
     display: flex;
     flex-direction: column;
     grid-gap: 1.5rem;
+   
 
 }
 
