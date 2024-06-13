@@ -171,6 +171,10 @@
         right: 0rem;
     }
 
+    #mail {
+        display: none;
+    }
+
     @media (max-width: 600px) {
 
         .hero-content h2 {

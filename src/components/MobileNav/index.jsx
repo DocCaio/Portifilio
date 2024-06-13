@@ -23,10 +23,10 @@ import Logo from '../Navbar/assets/logo.jpg';
                 <a className='menu-item' href="#">Skill</a>
             </li>
             <li>
-                <a className='menu-item' href="#">Work Experince</a>
+                <a className='menu-item' href="#projects">Projects</a>
             </li>
             <li>
-                <a className='menu-item' href="#">Contact Me</a>
+                <a className='menu-item' href="#contact">Contact Me</a>
             </li>
 
             <button className='contact-bnt' onClick={() => {}}>
