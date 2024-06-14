@@ -13,13 +13,17 @@
 
 - `functionality `:
 - Responsive.
-- Portifilio
+- Portifolio
 - Check my projects
   
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20finished&color=GREEN&style=for-the-badge)
 
 ### Print
-  <img src="#" alt="Minha Figura">
+  <img src="https://github.com/DocCaio/Portifilio/blob/main/src/assets/screen.png" alt="Minha Figura">
+
+  ### Email
+  
+  https://www.emailjs.com/
 
   This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
