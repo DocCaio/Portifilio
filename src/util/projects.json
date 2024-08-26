@@ -1,12 +1,12 @@
 
 [
   {
-    "title": "Project A",
+    "title": "CineDev",
     "imageSrc": "project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "This is a project about cinema, ticket shop.",
+    "skills": ["Next", "Typescript", "css"],
+    "demo": "https://cine-phi.vercel.app/",
+    "source": "https://github.com/DocCaio/CineDev"
   },
   {
     "title": "Project B",
