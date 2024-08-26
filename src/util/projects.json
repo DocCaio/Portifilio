@@ -3,7 +3,7 @@
   {
     "title": "CineDev",
     "imageSrc": "project.png",
-    "description": "This is a project about cinema, ticket shop.",
+    "description": "This is a project about cinema, ticket shop. multi pages",
     "skills": ["Next", "Typescript", "css"],
     "demo": "https://cine-phi.vercel.app/",
     "source": "https://github.com/DocCaio/CineDev"
