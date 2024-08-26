@@ -25,20 +25,20 @@ const Hero = () => {
               <a 
               target='blank'
               href="https://www.linkedin.com/in/caio-martins-2ba009207/">
-                 <img src={Linkedin}/>
+                 <img alt='Linkedin icon' src={Linkedin}/>
               </a>
           
               <a 
               target='blank'
               href="https://github.com/doccaio">
-                 <img src={Github}/>
+                 <img alt='github icon' src={Github}/>
               </a>
               
               <a 
               id='mail'
               target='blank'
               href="#email">
-                 <img src={Email}/>
+                 <img alt='e-mail icon' src={Email}/>
               </a>
 
               <a 
