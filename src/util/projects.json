@@ -2,19 +2,19 @@
 [
   {
     "title": "CineDev",
-    "imageSrc": "project.png",
-    "description": "This is a project about cinema, ticket shop. multi pages",
+    "imageSrc": "projeto1.png",
+    "description": "This is a project about cinema,ticket shop. Multi pages",
     "skills": ["Next", "Typescript", "css"],
     "demo": "https://cine-phi.vercel.app/",
     "source": "https://github.com/DocCaio/CineDev"
   },
   {
-    "title": "Project B",
-    "imageSrc": "project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Wild-Life-Zoo",
+    "imageSrc": "projeto2.png",
+    "description": "This is a project about a zoo and buy ticket shop. Multi pages ",
+    "skills": ["React", "Vite", "Swiper", "Boostrap"],
+    "demo": "https://wild-life-pink.vercel.app/",
+    "source": "https://github.com/DocCaio/Wild-Life"
   },
   {
     "title": "Project C",
