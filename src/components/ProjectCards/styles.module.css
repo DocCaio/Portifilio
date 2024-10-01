@@ -17,8 +17,8 @@
   }*/
 
 .image {
-   max-width: 300px;
-    max-height: 200px;  
+    width: 300px;
+    height: 200px;  
     border-radius: 20px;
     margin-bottom: 26px;
 }
@@ -72,6 +72,12 @@
 @media screen and (max-width:600px) { 
     .container {      
         max-width: 320px;
+    }
+
+    .image {
+        align-items: center;
+         max-width: 270px;
+         max-height: 200px;  
     }
 
 }
